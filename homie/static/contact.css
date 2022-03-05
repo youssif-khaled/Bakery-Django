@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  body{
+    font-family: "Alegreya Sans";
+  }
+  .content4{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.content4 .navbar{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    background-color: rgb(41, 37, 37);
+    }
+    .content4 .navbar .nav_list{
+    padding: 20px;
+    width: 80%;
+    height: auto;
+    }
+    .content4 .navbar .nav_list ul{
+        width: 100%;
+        list-style: none;
+        display: flex;
+        padding: 40px;
+        justify-content: flex-end;
+        
+        
+    }
+    .content4 .navbar .nav_list ul li{
+        display: flex;
+        margin-left: 60px;
+        
+    }
+    .content4 .navbar .nav_list ul li a{text-decoration: none; font-size: 20px; color:white;}
+    .content4 .navbar .nav_img {
+    padding: 20px;
+    width: 20%;
+    height: auto;
+    }
+
+    
+.content4 .content_img{
+    width: 600px;
+    height: 400px;
+    padding: 50px;
+    float: right;
+    
+    margin-right: 100px;
+}
+.content4 .content_paragraph{
+width: 600px;
+height: auto;
+padding: 50px;
+float: left;
+margin-left: 50px;
+
+
+
+}
+.content4 h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #303030;
+
+    margin-left: 20px;
+   
+
+}
+.content4 p{
+    margin-top: 10px;
+    line-height: 1.86em;
+    padding-left: 30px;
+    color: grey;
+
+}
+.content4 ul{
+    line-height: 1.86em;
+    color: rgb(116, 108, 108);
+    margin-left: 40px;
+    padding-left: 20px;
+    
+}
+

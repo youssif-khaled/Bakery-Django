@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/drew-coffman-1872.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.home .navbar{
+width: 80%;
+height: auto;
+margin: auto;
+display: flex;
+}
+.home .navbar .nav_img{
+    width: 20%;
+    height: auto;
+    padding: 20px;
+  
+}
+.home .navbar .nav_list{
+width: 80%;
+height: auto;
+padding: 20px;
+
+
+}
+.home .navbar .nav_list ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    justify-content: flex-end;
+}
+.home .navbar .nav_list ul li{
+    display: flex;
+    margin-left: 60px;
+   
+}
+.home .navbar .nav_list ul li a{ font-size: 16px;
+    color: white;
+    text-decoration: none;
+font-size: 20px;}
+
+.home .navbar .nav_img {
+padding: 20px;
+width: 20%;
+height: auto;
+}
+
+.home .child{
+    width: 80%;
+    height: auto;
+    text-align: center;
+margin: auto;
+margin-top: 200px;
+}
+.home .child h1,h3, p, .button ,.button2{
+    margin: 30px;
+    color: white;
+}
+.child h3{
+    font-size: 22px;
+  }
+  .child h1{
+  
+    font-size: 34px;
+    font-weight: 400;
+  }
+  .child p{
+    font-size: 24px;
+  }
+ 
+  .child .button1 {
+    
+      padding: 20px 30px;
+      background-color: #8e7754;
+      font-weight: 700;
+      border: 2px solid transparent;
+      border-radius: 4px;
+      color: #fff;
+  }
+  .child .button2{
+    color: #fff;
+    border-color: #fff;
+    background-color: transparent;
+    border: 2px solid;
+    padding: 20px 30px;
+    font-weight: 700;
+    border-radius: 4px;
+  }
+  .child .button1, .button2{
+    margin: 5px;
+}
+  
